@@ -1,0 +1,157 @@
+.sidebar {
+    margin-left: 2em;
+    height: 100%;
+}
+
+.img-profile {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#btn {
+    float: right;
+    margin: 10px;
+}
+
+.list-item {
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(231, 227, 227);
+    font-family: "Material+Icons";
+}
+
+
+.div-nav {
+    background-color: #e76b6b;
+}
+
+.content {
+    margin: 2em;
+    padding: 2px;
+    justify-content: center;
+}
+
+.row {
+    height: 100%;
+}
+
+
+
+.display {
+    display: none;
+}
+
+@media (min-width:1000px) {
+   .display {
+    display: inline;
+    height: 100%;
+    width:270px;
+}
+
+/* .display {
+    top:0;
+    left:0;
+    width:300px;
+}  */
+
+
+.sidebar {
+    margin-top: 50px;
+}
+
+.nav2 {
+    display: none;
+}
+
+}
+
+@media (max-width:1000px) {
+    .nav2 {
+        display: block;
+        opacity: 0.98;
+        filter:(opacity=50);       
+
+    }
+    .content {
+        margin-top: 60px;
+    }
+    .image {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+.footer {
+    width: 100%;
+    color: black !important;
+    background-color:rgb(238, 236, 231);
+}
+
+.list-inline-item {
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.fb .facebookText, .fa-twitter .twitter, .fa-linkedin-in .linkedin, 
+.fa-google .mail, .fa-github .github, .fa-download .resume{
+    visibility: hidden;
+    width: 120px;
+    background-color: #e76b6b;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.fb .facebookText::after, .fa-github .github::after,
+.fa-twitter .twitter::after, .fa-linkedin-in .linkedin::after, 
+.fa-google .mail::after, .fa-download .resume::after{ 
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+
+}
+
+.fb:hover .facebookText, .fa-github:hover .github,
+.fa-twitter:hover .twitter, .fa-linkedin-in:hover .linkedin, 
+.fa-google:hover .mail, .fa-download:hover .resume{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+
+
+.nav2{
+    background-color: #e76b6b;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+.top-nav-collapse2 {
+    background-color: #24355c;
+  }
+  
+.list-item2 {
+  padding:10px;
+  text-decoration: none;
+  font-size: 20px;
+
+  }

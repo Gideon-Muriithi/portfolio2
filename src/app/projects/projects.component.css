@@ -1,0 +1,19 @@
+.heading3 {
+    color: rgb(151, 148, 148);
+}
+
+.center {
+    height: 300px;
+    width: 100%;
+}
+
+.video {
+    text-align: center;
+    width: 100%;
+}
+
+ @media (min-width:500px) {
+    #iframe {
+        width: 560px;
+     }
+ }

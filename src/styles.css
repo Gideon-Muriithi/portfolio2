@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: 100%; 
+    top:0;
+    overflow-x: hidden;
+    bottom:0;
+    left:0;
+    font-family: "Material+Icons";
+    right:0;
+    background-color: rgb(241, 235, 235);
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.hidden-thing {
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.components-content {
+  font-size: 16px;
+  line-height: 1.6;
+
+}
+
+
+.components {
+    margin-top: 40px;
+}
